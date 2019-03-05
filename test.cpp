@@ -10,7 +10,7 @@
 TEST_CASE("Sum of integers for a short vector", "[short]")
 {
   auto integers = {1, 2, 3, 4, 5};
-  REQUIRE(sum_integers(integers) == 14);
+  REQUIRE(sum_integers(integers) == 15);
 }
 
 TEST_CASE("Sum of integers for a longer vector", "[long]")
